@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.8.0</title>
+
+  <!-- <link rel="shortcut icon" type="image/png" href="jasmine/jasmine-2.8.0/face.png"> -->
+  <link rel="stylesheet" href="jasmine/jasmine-2.8.0/jasmine.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
+  <script src="jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+  <script src="jasmine/jasmine-2.8.0/boot.js"></script>
+</head>
+
+<body>
+  <div id="input">
+    <h1>Shape Generator</h1>
+    <br><br>
+    <p>Select a shape & enter no of shapes</p>
+    <br>
+    <div>
+      <input type="radio" name="choice" value="circle" id="circle" checked> Circle
+      <input type="radio" name="choice" value="square" id="square"> Square
+      <input type="radio" name="choice" value="rectangle" id="rectangle"> Rectangle
+    </div>
+    <br>
+    <div>
+      <input type="number" id="number" name="shape">
+      <button id="button">Generate</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box" id="box"></div>
+  </div>
+
+  <script src="src/app.js"></script>
+</body>
+<!-- include source files here... -->
+
+<!-- include spec files here... -->
+<script src="tests/FunctionsTest.js"></script>
+
+</html>
